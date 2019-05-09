@@ -1,0 +1,681 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+p,
+blockquote,
+pre,
+hr,
+figure,
+table,
+caption,
+th,
+td,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+menu {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+footer,
+section,
+article,
+aside,
+nav,
+hgroup,
+address,
+figure,
+figcaption,
+menu,
+details {
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+caption,
+th {
+    text-align: left;
+    font-weight: normal;
+}
+
+html,
+body,
+fieldset,
+img,
+iframe,
+abbr {
+    border: 0;
+}
+
+i,
+cite,
+em,
+var,
+address,
+dfn {
+    font-style: normal;
+}
+
+[hidefocus],
+summary {
+    outline: 0;
+}
+
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+small {
+    font-size: 100%;
+}
+
+sup,
+sub {
+    font-size: 83%;
+}
+
+pre,
+code,
+kbd,
+samp {
+    font-family: inherit;
+}
+
+q:before,
+q:after {
+    content: none;
+}
+
+textarea {
+    overflow: auto;
+    resize: none;
+}
+
+label,
+summary {
+    cursor: default;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+strong,
+b {
+    font-weight: bold;
+}
+
+del,
+ins,
+u,
+s,
+a,
+a:hover {
+    text-decoration: none;
+    color: #666;
+}
+
+body,
+textarea,
+input,
+button,
+select,
+keygen,
+legend {
+    font-family: "微软雅黑";
+    size: 18px;
+    color: #666;
+    outline: 0;
+}
+
+.mobile::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/* 头部 */
+
+#top {
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+    background: #f2f2f2;
+}
+
+.top {
+    width: 1200px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.top p {
+    display: inline-block;
+    size: 14px;
+    color: #aeaeae;
+}
+
+.top .tell {
+    margin-left: 90px;
+    background: url(../images/a-tell.png) no-repeat 0 8px;
+    padding-left: 30px;
+}
+
+
+/* 导航 */
+
+#nav {
+    width: 100%;
+    height: 90px;
+    line-height: 90px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.nav {
+    width: 1200px;
+    height: 90px;
+    line-height: 90px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.logo {
+    float: left;
+    overflow: hidden;
+}
+
+.logo a {
+    display: inline-block;
+}
+
+.logo a img {
+    float: left;
+    width: 190px;
+    height: 90px;
+    overflow: hidden;
+}
+
+.dhang {
+    float: left;
+    margin-left: 230px;
+}
+
+.dhang ul {
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+}
+
+.dhang ul li {
+    float: left;
+    width: 100px;
+    margin: 0 20px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.dhang ul li a {
+    display: inline-block;
+    height: 90px;
+    line-height: 90px;
+    font-size: 18px;
+    color: #666;
+}
+
+.dhang ul li:hover {
+    border-bottom: 4px #f85858 solid;
+    height: 86px;
+    line-height: 86px;
+}
+
+.dhang ul li:hover a {
+    color: #ff5b5b;
+}
+
+.banner-page {
+    width: 100%;
+    height: 764px;
+    background: url(../images/banner.png) center center no-repeat;
+}
+
+.banner {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.banner .down {
+    position: absolute;
+    top: 500px;
+    left: 576px;
+}
+
+.banner .down .down-left {
+    float: left;
+}
+
+.kongone {
+    height: 16px;
+}
+
+.kongImg {
+    height: 46px;
+}
+
+.banner .down .down-left a {
+    width: 200px;
+    height: 63px;
+    display: block;
+}
+
+.ios,
+.android {
+    position: relative;
+    z-index: 99;
+}
+
+.ios:hover,
+.android:hover {
+    margin-top: -4px;
+}
+
+.banner .down .down-right {
+    float: right;
+}
+
+.banner .down .wxewm {
+    width: 199px;
+    height: 202px;
+    margin-left: 80px;
+}
+
+
+/* 贷款申请 */
+
+.loans-page {
+    width: 100%;
+    padding: 140px 0;
+    background: #fff;
+}
+
+.loans {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.apply {
+    width: 100%;
+    text-align: center;
+    background: url(../images/dai-top.png) no-repeat center center;
+    margin-bottom: 30px;
+}
+
+.apply h3 {
+    font-size: 30px;
+    color: #333;
+}
+
+.lo-con ul {
+    width: 1300px;
+    overflow: hidden;
+}
+
+.lo-con ul li {
+    width: 300px;
+    height: 120px;
+    overflow: hidden;
+    padding: 21px 18px;
+    margin-right: 82px;
+    margin-top: 40px;
+    float: left;
+    border: 1px #000 solid;
+    text-align: center;
+}
+
+.lo-con ul li .loan-t {
+    margin-top: 16px;
+    font-size: 16px;
+    color: #000;
+}
+
+.lo-con ul li p {
+    font-size: 12px;
+    color: #666;
+    margin-top: 18px;
+}
+
+
+/* 产品展示 */
+
+#phone {
+    width: 100%;
+    padding-top: 40px;
+    height: 706px;
+    background: #eeeeee;
+}
+
+.phone {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.phone .here {
+    font-size: 28px;
+    color: #ff5b5b;
+    letter-spacing: 4px;
+    margin-bottom: 30px;
+    font-family: "宋体";
+}
+
+.phone .line {
+    font-size: 22px;
+    color: #888;
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-family: "宋体";
+}
+
+.mobile {
+    width: 1230px;
+    overflow: hidden;
+    position: relative;
+    z-index: 9;
+}
+
+.mobile img {
+    transition: all .5s;
+}
+
+.mobile img:hover {
+    transform: scale(1.1);
+}
+
+.imgLeft,
+.imgCenter,
+.imgRight {
+    float: left;
+    margin: 0 30px;
+}
+
+.imgCenter {
+    margin-top: 43px;
+}
+
+.imgLeft,
+.imgRight {
+    margin-top: 177px;
+}
+
+.bgHome {
+    width: 100%;
+    overflow: hidden;
+    z-index: 0;
+    position: relative;
+}
+
+.bgHome img {
+    width: 100%;
+}
+
+
+/* 关于我们 */
+
+.about-page {
+    width: 100%;
+    background: url(../images/anoutbg.jpg) no-repeat;
+    height: 671px;
+}
+
+.aboutus {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.aboutus .about {
+    width: 100%;
+    text-align: center;
+    background: url(../images/dai-about.png) no-repeat center center;
+    margin-bottom: 30px;
+    padding: 60px;
+    padding: 40px;
+}
+
+.aboutus .about h3 {
+    font-size: 30px;
+    color: #fff;
+}
+
+.aboutus .about-pro {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 40px;
+    font-family: "宋体";
+}
+
+.about-cont {
+    margin-top: 50px;
+}
+
+.about-logo {
+    float: left;
+    width: 257px;
+    margin-left: 50px;
+}
+
+.about-logo img {
+    width: 282px;
+    height: 261px;
+    margin-top: 102px;
+}
+
+.about-txt {
+    float: left;
+    width: 888px;
+    font-size: 18px;
+    color: #fff;
+    line-height: 30px;
+    font-family: "宋体";
+}
+
+.about-txt .about-English {
+    margin-top: 40px;
+    font-family: "宋体";
+}
+
+
+/* 合作机构 */
+
+.cooper-page {
+    width: 100%;
+}
+
+.cooperate {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.cooper {
+    width: 100%;
+    text-align: center;
+    background: url(../images/dai-join.png) no-repeat center center;
+    margin-bottom: 30px;
+    margin: 111px 0 70px 0;
+}
+
+.cooper h3 {
+    font-size: 30px;
+    color: #ff5b5b;
+}
+
+.cooper-friend {
+    width: 1248px;
+    overflow: hidden;
+}
+
+.cooper-friend ul {
+    width: 1248px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.cooper-friend ul li {
+    float: left;
+    width: 158px;
+    height: 48px;
+    line-height: 48px;
+    border: 1px #e5e5e5 solid;
+    text-align: center;
+    margin: 0 48px 40px 0;
+}
+
+.cooper-friend ul li:hover {
+    box-shadow: 0 0 10px #ccc;
+    line-height: 44px;
+}
+
+.cooper-friend ul li img,
+.cooper-friend ul li p {
+    display: inline-block;
+    transition: .3s;
+}
+
+.cooper-friend ul li img {
+    vertical-align: middle;
+    width: 32px;
+    height: 32px;
+}
+
+.cooper-friend ul li p {
+    padding-left: 12px;
+}
+
+.cooper-friend ul li a {
+    display: block;
+    width: 158px;
+    height: 48px;
+}
+
+
+/* 友情链接 */
+
+#link-friend {
+    width: 100%;
+    height: 38px;
+    margin-top: 30px;
+    line-height: 38px;
+    border-top: 1px #e5e5e5 solid;
+    border-bottom: 1px #e5e5e5 solid;
+    background: #f2f2f2;
+}
+
+.link-friend {
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #ff5b5b;
+}
+
+.link-friend a {
+    color: #404040;
+    margin-right: 50px;
+}
+
+
+/* 底部 */
+
+#footer::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#footer {
+    width: 100%;
+    background: #eeeeee;
+    padding-bottom: 20px;
+}
+
+.footer {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.footer::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.footer-left {
+    width: 626px;
+    float: left;
+    margin-left: 140px;
+}
+
+.footer-left p span {
+    padding-left: 30px;
+}
+
+.footer p {
+    padding-bottom: 30px;
+    font-size: 14px;
+    color: #333;
+}
+
+.footer-right {
+    text-align: center;
+}
+
+.footer-right img {
+    width: 90px;
+    height: 91px;
+    margin-bottom: 30px;
+}
+
+.copyright {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 14px;
+    color: #333;
+}
